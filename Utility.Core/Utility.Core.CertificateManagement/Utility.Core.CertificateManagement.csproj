@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+	  <Version>0.0.2</Version>
+	  <Authors>Levi Oliveira</Authors>
+	  <Company>LvDeploy - Levi Oliveira</Company>
+	  <Product>Utility.Core.CertificateManagement </Product>
+	  <Description>Package made to return certificate files from AMAZON S3</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.7.101.58" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
+  </ItemGroup>
+
+</Project>
