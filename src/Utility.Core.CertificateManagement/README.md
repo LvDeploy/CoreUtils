@@ -1,5 +1,5 @@
 # Introduction 
-This a project was made to make easier to retrieve certificate files that require password to import from S3 Storage.
+This a project was made to retrieve certificate files that require password imported from S3 Storage.
 You can retrieve a single file that can filtered by SerialNumber.
 
 TargetFramework: NETSTANDART2.1
