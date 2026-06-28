@@ -14,7 +14,7 @@ CertificateManagement:
 ├── Region
 └── SessionToken
 ```
-- For Inject the Dependencies use the static class extension: Bootstrapper.RegisterCertificateFileServices(configuration)
+- For Inject the Dependencies use the static class extension: Bootstrapper.AddCertificateFileServices(configuration)
 
 The `configuration` must come from `IConfiguration`.
 

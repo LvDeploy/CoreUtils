@@ -13,7 +13,7 @@ namespace Utility.Core.CertificateManagement
         /// <param name="services"></param>
         /// <param name="_configuration"></param>
         /// <returns></returns>
-        public static IServiceCollection RegisterCertificateFileServices(this IServiceCollection services, IConfiguration _configuration)
+        public static IServiceCollection AddCertificateFileServices(this IServiceCollection services, IConfiguration _configuration)
         {
 
             services.AddScoped<IS3, S3>();

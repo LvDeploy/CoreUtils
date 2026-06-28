@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="Utility.Core.CertificateManagement/Utility.Core.CertificateManagement.csproj" />
+  <Project Path="Utility.Core.Dispatcher/Utility.Core.Dispatcher.csproj" />
 </Solution>
